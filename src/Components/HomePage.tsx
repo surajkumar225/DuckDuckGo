@@ -7,6 +7,7 @@ import { BiMicrophone } from 'react-icons/bi';
 import { BsFillMicFill } from 'react-icons/bs';
 import { PiArrowCircleDownFill } from 'react-icons/pi';
 import { BsCheckLg } from 'react-icons/bs';
+
 import { useRouter } from "next/navigation";
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import dynamic from "next/dynamic";
@@ -84,10 +85,7 @@ const HomePage: React.FC = () => {
                     <li>⦿ Site Encryption</li>
             </ul>
             <button className='bg-blue-400 my-6 px-5 py-3 text-xl rounded-xl text-black font-medium hover:bg-blue-500'>Explore More</button>
-            <PiArrowCircleDownFill className="my-5 text-5xl border-red-700 "/>
-
-
-
+            <PiArrowCircleDownFill className="my-5 text-5xl border-red-700 animate-bounce hover:animate-spin"/>
 
         </div>
     )
